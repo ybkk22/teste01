@@ -4,10 +4,12 @@ int main() {
     // Definindo variáveis para armazenar informações das cartas
     char SaoPaulo[50], RiodeJaneiro[50];
     char A01[10], B02[10];
+
     int Populacaosaopaulo;
     int Populacaoriodojaneiro;
     int pontosTuristicossaopaulo;
     int pontosTuristicosriodejaneiro;
+
     float areaSaoPaulo;
     float areaRioDeJaneiro;
     float pibSaoPaulo;
