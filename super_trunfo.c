@@ -16,33 +16,32 @@ int main() {
     float pibRioDeJaneiro;
 
     // Informações da carta de São Paulo
-    printf("Nome do estado (São Paulo): ");
+    printf("Nome do estado (A): ");
     scanf("%s", SaoPaulo);
-    printf("Código da carta (São Paulo): ");
+    printf("Código da carta (A): ");
     scanf("%s", A01);
-    printf("População de São Paulo: ");
+    printf("População: ");
     scanf("%d", &Populacaosaopaulo);
-    printf("Área de São Paulo: ");
+    printf("Área: ");
     scanf("%f", &areaSaoPaulo);
-    printf("PIB de São Paulo: ");
+    printf("PIB: ");
     scanf("%f", &pibSaoPaulo);
-    printf("Pontos turísticos de São Paulo: ");
+    printf("Número de Pontos Turísticos: ");
     scanf("%d", &pontosTuristicossaopaulo);
-    
-    
+
     // Informações da carta do Rio de Janeiro
-    printf("Nome do estado (Rio de Janeiro): ");
+    printf("Nome do estado (B): ");
     scanf("%s", RiodeJaneiro);
-    printf("Código da carta (Rio de Janeiro): ");
+    printf("Código da carta (B): ");
     scanf("%s", B02);
-    printf("População do Rio de Janeiro: ");
+    printf("População: ");
     scanf("%d", &Populacaoriodojaneiro);
-    printf("Pontos turísticos do Rio de Janeiro: ");
-    scanf("%d", &pontosTuristicosriodejaneiro);
-    printf("Área do Rio de Janeiro: ");
+    printf("Área: ");
     scanf("%f", &areaRioDeJaneiro);
-    printf("PIB do Rio de Janeiro: ");
+    printf("PIB: ");
     scanf("%f", &pibRioDeJaneiro);
+    printf("Número de Pontos Turísticos: ");
+    scanf("%d", &pontosTuristicosriodejaneiro);
 
     // Exibindo informações da carta de São Paulo
     printf("\n--- INFORMAÇÕES DAS CARTAS ---\n");
